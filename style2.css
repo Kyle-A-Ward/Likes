@@ -1,0 +1,110 @@
+.count{
+    padding: 5px;
+}
+.count2{
+    padding: 5px;
+}
+.count3{
+    padding: 5px;
+}
+.head{
+    margin: 0px auto;
+    display: flex;
+    width: 500px;
+    background-color: black;
+    height: 60px;
+}
+.head>h1{
+    color: white;
+    margin-left: 30px;
+    margin-top:10px;
+}
+.title>h1{
+    margin: 0px auto;
+    display:flex;
+    justify-content: center;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content{
+    margin: 0px auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 250px;
+    width: 150px;
+}
+.right{
+    margin-left: 30px;
+}
+.left>img{
+    height: 75px;
+    width: 75px;
+    padding: 35px;
+    padding-bottom: 25px;
+}
+.left>a{
+    text-align: center;
+}
+.left>h2{
+    text-align: center;
+}
+.container1{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+.container2{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+.container3{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    height: 50px;
+}
+.numLikes{
+    display: flex;
+    flex-direction: row;
+}
+.numLikes>p{
+    margin-right: 12px;
+    margin-top: 20px;
+}
+
+.name>h2{
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.user>p{
+    margin-top: 20px;
+}
+.numLikes>button{
+    margin-right: 20px;
+    margin-top: 18px;
+    height: 30px;
+    width: 60px;
+    background-color: #ffd966;
+    box-shadow: 5px 5px 5px black;
+}
+.bottom{
+    margin-left: 20px;
+    margin-right: 20px;
+}
